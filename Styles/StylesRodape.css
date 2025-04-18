@@ -1,0 +1,75 @@
+/* RODAPÉ - CONTATOS */
+footer {
+    background-color: #7a979d;
+    padding: 2% 4%;
+    text-align: center;
+  }
+  
+  .titleRodape {
+    font-size: clamp(16px, 4vw, 30px);
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 1%;
+  }
+  
+  .txtRodape {
+    font-size: clamp(14px, 3vw, 20px);
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 1%;
+  }
+  
+  .txtRodapeCont {
+    font-size: clamp(14px, 3vw, 18px);
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+  
+  .txtRodapeCont:hover {
+    opacity: 0.6;
+  }
+  
+  .boxContato a {
+    text-decoration: none;
+  }
+  
+  .boxRodapeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 2% auto;
+    max-width: 400px;
+  }
+  
+  .boxRodapeImg a {
+    text-decoration: none;
+  }
+  
+  .redeImg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+  }
+  
+  .redeImg:hover {
+    transform: scale(1.1);
+  }
+  
+  footer center {
+    font-size: 12px;
+    margin-top: 16px;
+    color: #333;
+  }
+  
+  footer center a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  footer center a:hover {
+    text-decoration: underline;
+  }
+  

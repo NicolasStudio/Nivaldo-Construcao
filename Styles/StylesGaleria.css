@@ -1,0 +1,255 @@
+.boxGallery {
+    width: 96%;
+    margin: 2% auto 40%;
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.boxMaster {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    padding-top: 4%;
+}
+
+.boxClick {
+    background-color: #fff;
+    border: 4px #314c53 solid;
+    box-shadow: -4px 6px 0 #24373b;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boxClick:hover {
+    transform: translateY(-4px);
+    box-shadow: -4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.imgClick {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 4px 4px 0 0;
+transition: transform 0.4s ease;
+cursor: pointer;
+}
+
+.boxClick:hover .imgClick {
+    transform: scale(1.05);
+}
+
+.textclick {
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid #314c53;
+    background-color: #fff;
+}
+
+/* Galeria Lightbox */
+/* Lightbox geral */
+.lightBox {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+  }
+  
+  /* Área central onde aparece o conteúdo da galeria */
+  .apresentacaoImg {
+    position: relative;
+    margin: 5% auto;
+    width: 80%;
+    max-width: 550px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Imagens dentro dos slides */
+  .imgGallery1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Legenda */
+  .textApresentacao {
+    font-size: clamp(14px, 2vw, 18px);
+    margin-top: 12px;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    border-top: 2px solid #222;
+  }
+  
+  /* Slideshow containers já existentes — não alterados */
+  .slideshow-container1,
+  .slideshow-container2,
+  .slideshow-container3,
+  .slideshow-container4,
+  .slideshow-container5,
+  .slideshow-container6,
+  .slideshow-container7,
+  .slideshow-container8,
+  .slideshow-container9,
+  .slideshow-container10,
+  .slideshow-container11,
+  .slideshow-container12 {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+    /* NÃO TOCADO: display: none */
+  }
+  
+  /* Slides individuais */
+  .mySlides1,
+  .mySlides2,
+  .mySlides3,
+  .mySlides4,
+  .mySlides5,
+  .mySlides6,
+  .mySlides7,
+  .mySlides8,
+  .mySlides9,
+  .mySlides10,
+  .mySlides11,
+  .mySlides12 {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Número no canto superior do slide */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+/* Botões de navegação */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  user-select: none;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+  left: 4px;
+}
+
+.next {
+  right: 4px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  transform: translateY(-50%) scale(1.05);
+}
+
+/* Botão fechar dentro da imagem */
+.close {
+    position: absolute;
+    top: 2.5%;
+    right: 3.5%;
+    padding: 6px 10px;
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+    border: transparent;
+    background-color: transparent;
+  }
+  
+  .close:hover {
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  
+  /* Fade entre imagens */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0.4; }
+    to   { opacity: 1; }
+  }
+  
+  .slideshow-container1{
+    display: none;
+  }
+
+  .slideshow-container2{
+    display: none;
+  }
+
+  .slideshow-container3{
+    display: none;
+  }
+
+  .slideshow-container4{
+    display: none;
+  }
+
+  .slideshow-container5{
+    display: none;
+  }
+
+  .slideshow-container6{
+    display: none;
+  }
+
+  .slideshow-container7{
+    display: none;
+  }
+
+  .slideshow-container8{
+    display: none;
+  }
+
+  .slideshow-container9{
+    display: none;
+  }
+
+  .slideshow-container10{
+    display: none;
+  }
+
+  .slideshow-container11{
+    display: none;
+  }
+
+  .slideshow-container12{
+    display: none;
+  }

@@ -1,0 +1,112 @@
+/* SOBRE */
+#sobre {
+    padding: 4% 2%;
+    background-color: transparent;
+  }
+  
+  .boxSobre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 10%;
+  }
+  
+  .boxRedes,
+  .boxSobre2 {
+    flex: 1 1 40%;
+    min-width: 300px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .calculoIdade {
+    font-weight: 600;
+    color: #24373b; /* ou qualquer cor de destaque, se quiser */
+  }
+  
+  
+  .titleInicio {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .boxImgRede {
+    margin-top: 1rem;
+  }
+
+  .boxImgRede a{
+    text-decoration: none;
+  }
+  
+  .redeImg {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .redeImg:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+  
+  .textSobre {
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .calculoIdade {
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    font-weight: 600;
+    color: #24373b;
+  }
+  
+  
+  .textSobre2 {
+    text-align: justify;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    font-weight: 500;
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+  
+  .imgConstrucao {
+    display: block;
+    margin: 2rem auto;
+    width: clamp(200px, 20%, 300px);
+    filter: drop-shadow(2px 4px 6px #aaa);
+    transition: transform 0.3s ease;
+  }
+  
+  .imgConstrucao:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 767px) {
+    .boxSobre {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boxRedes,
+    .boxSobre2 {
+      width: 90%;
+    }
+  
+    .redeImg {
+      width: 40px;
+      height: 40px;
+      margin: 0 8px;
+    }
+  
+    .imgConstrucao {
+      width: 50%;
+    }
+  }
+  

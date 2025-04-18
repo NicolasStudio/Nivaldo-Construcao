@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas de Almeida Sousa"/>
+    <meta name="description" content="Portifólio das capacidades/habilidades de Nivaldo Joaquim de Sousa"/>
+    <meta name="keywords" content="portifolio, construcao, pedreiro, serviços, obra">
+    <link rel="icon" type="image/png" sizes="16x16"  href="Image/icons/favicon-16x16.png">
+    <title>N. Joaquim - Portifólio</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/StylesMenu.css"> <!-- Estilo do cabeçalho -->
+    <link rel="stylesheet" href="Styles/StylesHome.css"> <!-- Estilo da home -->
+    <link rel="stylesheet" href="Styles/StylesSobre.css"> <!-- Estilo do sobre -->
+    <link rel="stylesheet" href="Styles/StylesHabilidades.css"> <!-- Estilo do sobre -->
+    <link rel="stylesheet" href="Styles/StylesGaleria.css"> <!-- Estilo da galeria -->
+    <link rel="stylesheet" href="Styles/StylesRodape.css"> <!-- Estilo do Rodapé -->
+    <script defer src="Js/Script.js"></script>
+
+    <style>
+        html{
+            background: #b9d5d1;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="navbar">
+            <ul class="navbarMenu">
+                <li class="nomeMenu">N. Joaquim (Niniu)</li>
+                <div class="menuLinks">
+                    <li class="opcoes"><a href="#home">Início</a></li>
+                    <li class="opcoes"><a href="#sobre">Sobre</a></li>
+                    <li class="opcoes"><a href="#habilidade">Habilidades</a></li>
+                    <li class="opcoes"><a href="#projetos">Projetos</a></li>
+                    <li class="opcoes"><a href="#contatos">Contatos</a></li>
+                </div>
+            </ul>
+        </div>
+        
+        <div class="boxBurguer">
+            <img src="Image/outros/burguer.png" alt="menu" class="burguer" onclick="abrirfechar()">
+        </div>
+        
+        <div class="inicio__mobile" id="mobileMenu">
+            <ul class="burguer__Link">
+                <li class="opcoes2"><a href="#home">Início</a></li>
+                <li class="opcoes2"><a href="#sobre">Sobre</a></li>
+                <li class="opcoes2"><a href="#habilidade">Habilidades</a></li>
+                <li class="opcoes2"><a href="#projetos">Projetos</a></li>
+                <li class="opcoes2"><a href="#contatos">Contatos</a></li>  
+            </ul>
+        </div>
+    </div>
+            <section id="home">
+                    <div class="boxImagemInicio">
+                        <img src="Image/outros/imgInicio.jpeg" alt="Imagem inicio" class="imgInicio">
+                    </div>
+
+                    <div class="boxInicio">
+                        <h1 class="titleInicio">Olá visitante!</h1>
+                        <h1 class="titleInicio">Meu nome é Nivaldo Joaquim de Sousa</h1>
+                        <h1 class="titleInicio">Pedreiro há mais de 40 anos. </h1>
+                        <p class="textInicio">Trabalho na área da construção há mais de 40 anos, sempre entregando serviços na mais alta qualidade.
+                            Não é nenhum exagero dizer que construir o sonho de vocês com carinho e respeito, também é o meu sonho. Aqui você pode conhecer,
+                            um pouco mais de mim e meu trabalho.  </p>
+                    </div>
+            </section>
+
+            <section id="sobre">
+                <div class="boxSobre">
+                    <div class="boxRedes">
+                        <h1 class="titleInicio">Redes Sociais: </h1>
+                        <div class="boxImgRede">
+                            <p class="textSobre"> Aqui estão as minhas redes:</p>
+                            <a href="https://www.facebook.com/nivaldo.sousa.79462"> <img class="redeImg" src="Image/icons/facebook.png" alt="ERRO"> </a>
+                            <a href="https://api.whatsapp.com/send?phone=5511968445033"> <img class="redeImg" src="Image/icons/whatsapp.png" alt="ERRO"> </a>
+                            <a href="https://www.instagram.com/nivaldo.sousa.79462/"> <img class="redeImg" src="Image/icons/instagram.png" alt="ERRO"> </a>
+                        </div>
+                    </div>
+
+                    <div class="boxSobre2">
+                        <h1 class="titleInicio">Sobre: </h1>
+
+                        <p class="textSobre2">
+                            Meu nome é Nivaldo Joaquim de Sousa, tenho <span class="calculoIdade" id="idade"> </span> anos. Comecei no ramo da construção 
+                            desde os meus 15 anos, passei por grandes empresas como Cyrela, Lógica e Tarjab, auxiliando na construção de prédios. 
+                            Também trabalhei em incontavéis residências desde o alicerce até o acabamento, ou até mesmo serviços curtos, como: levantar
+                            um muro, instalar uma porta e afins.</p>
+                        <p class="textSobre2">Após a conclusão de um projeto, não há sensação melhor do que a alegria de ver que realizei o sonho
+                            de alguém. Aquele sonho que muitas vezes acaba ficando na gaveta. </p>
+
+                        <script>
+                            var idade = window.localStorage.getItem('idade');
+                            document.getElementById("idade").innerHTML = idade;
+                        </script>
+
+                    </div>
+                </div>
+                        <img src="Image/outros/construcao.png" alt="" class="imgConstrucao">
+            </section>
+
+            <section id="habilidade">
+                <div class="boxhab1">
+                  <center><h1 class="titleHab">Habilidades:</h1></center>
+                  <p class="textHab1">
+                    Como todo projeto é de vital importância seguir algumas etapas e abaixo vou destacar as minhas habilidades.
+                  </p>
+                </div>
+              
+                <div class="boxhab2">
+                  <center><h1 class="titleHab2">Etapas:</h1></center>
+                  <div class="boxEtapaMaster">
+                    <div class="boxEtapa">
+                      <button class="todas ling1" onclick="mostrarMensagem('mensagem1')">Projetos</button>
+                      <button class="todas ling2" onclick="mostrarMensagem('mensagem2')">Orçamentos</button>
+                      <button class="todas ling3" onclick="mostrarMensagem('mensagem3')">Serviços Preliminares</button>
+                      <button class="todas ling4" onclick="mostrarMensagem('mensagem4')">Estrutura</button>
+                      <button class="todas ling5" onclick="mostrarMensagem('mensagem5')">Alvenaria</button>
+                    </div>
+              
+                    <div class="boxEtapa2">
+                      <button class="todas ling6" onclick="mostrarMensagem('mensagem6')">Projeto Hidrosanitário</button>
+                      <button class="todas ling7" onclick="mostrarMensagem('mensagem7')">Projetos Elétricos</button>
+                      <button class="todas ling8" onclick="mostrarMensagem('mensagem8')">Projetos Complementares</button>
+                      <button class="todas ling9" onclick="mostrarMensagem('mensagem9')">Telhado</button>
+                      <button class="todas ling10" onclick="mostrarMensagem('mensagem10')">Acabamento</button>
+                    </div>
+                  </div>
+              
+                  <!-- Estrutura oculta para popups -->
+                  <div class="mensagem" style="display: none">
+                    <div class="mensagem1">
+                      <p class="msgText">Arquitetônico</p>
+                      <p class="msgText">Estrutural</p>
+                      <p class="msgText">Executivo</p>
+                      <p class="msgText">Hidrossanitário</p>
+                      <p class="msgText">Elétrico, telefonia e internet</p>
+                      <p class="msgText">Luminotécnico</p>
+                    </div>
+              
+                    <div class="mensagem2">
+                      <p class="msgText">O orçamento é o levantamento de preços e definição de capacidade construtiva</p>
+                    </div>
+              
+                    <div class="mensagem3">
+                      <p class="msgText">Sondagem</p>
+                      <p class="msgText">Terraplagem</p>
+                      <p class="msgText">Construção do depósito</p>
+                      <p class="msgText">Construção do tapume</p>
+                      <p class="msgText">Instalação provisória de água</p>
+                      <p class="msgText">Instalação provisória de energia</p>
+                      <p class="msgText">Demolições</p>
+                    </div>
+              
+                    <div class="mensagem4">
+                      <p class="msgText">Fundação</p>
+                      <p class="msgText">Pilares</p>
+                      <p class="msgText">Vigas</p>
+                      <p class="msgText">Laje</p>
+                      <p class="msgText">Escada</p>
+                    </div>
+              
+                    <div class="mensagem5">
+                      <p class="msgText">Paredes (chapisco, emboço, reboco)</p>
+                      <p class="msgText">Drywall</p>
+                      <p class="msgText">Verga e contra-verga</p>
+                      <p class="msgText">Torre caixa d’água</p>
+                    </div>
+              
+                    <div class="mensagem6">
+                      <p class="msgText">Água quente</p>
+                      <p class="msgText">Água fria</p>
+                      <p class="msgText">Esgoto</p>
+                    </div>
+              
+                    <div class="mensagem7">
+                      <p class="msgText">Tubulações</p>
+                      <p class="msgText">Caixas</p>
+                      <p class="msgText">Fiação</p>
+                      <p class="msgText">Aterramento</p>
+                    </div>
+              
+                    <div class="mensagem8">
+                      <p class="msgText">Telefonia</p>
+                      <p class="msgText">TV</p>
+                      <p class="msgText">Gás</p>
+                      <p class="msgText">Ar Condicionado</p>
+                    </div>
+              
+                    <div class="mensagem9">
+                      <p class="msgText">Fiação</p>
+                      <p class="msgText">Forro (pré-moldado, madeira, PVC ou gesso)</p>
+                    </div>
+              
+                    <div class="mensagem10">
+                      <p class="msgText">Gesso (Forros, Rebaixos, Sancas)</p>
+                      <p class="msgText">Esquadrias (Portas, Janelas)</p>
+                      <p class="msgText">Revestimento Piso e Parede</p>
+                      <p class="msgText">Pintura</p>
+                    </div>
+                  </div>
+                
+                  <!-- Estrutura do popup -->
+                <div id="popup-container" class="popup-container" onclick="fecharPopup(event)">
+                    <div class="popup-box" id="popup-box">
+                    <button class="fechar-popup" onclick="fecharPopup(event)">✖</button>
+                    <div id="popup-content"></div>
+                    </div>
+                </div>
+              
+                  <img src="Image/outros/construcao2.png" alt="" class="imgConstrucao2" />
+                </div>
+            </section>
+              
+            <section id="projetos">
+                <div class="boxGallery">
+                    <center><h1 class="titleHab"> Galeria</h1></center>
+                    <p class="textHab1">
+                    Aqui estão alguns trabalhos que realizei, desde projetos extremamente demorados e complexos, à projetos simples. </p><br>
+                    <hr>
+
+                    <div class="boxMaster">
+                        <div class="boxClick1">
+                            <img src="Image/gallery1/1.jpeg" class="imgClick">
+                            <center><p class="textclick"> Azuleijo e Piso</p></center>
+                        </div> 
+
+                        <div class="boxClick2">
+                            <img src="Image/gallery2/1.jpeg" class="imgClick">
+                            <center><p class="textclick"> Reboco </p></center>
+                        </div>
+
+                        <div class="boxClick3">
+                            <img src="Image/gallery3/1.jpeg" class="imgClick" >
+                            <center><p class="textclick"> Fundação </p></center>
+                        </div>
+
+                        <div class="boxClick4">
+                            <img src="Image/gallery4/2.jpeg" class="imgClick" >
+                            <center><p class="textclick">Reboco e Muro externo </p></center>
+                        </div>
+
+                        <div class="boxClick5">
+                            <img src="Image/gallery5/1.jpeg" class="imgClick" >
+                            <center><p class="textclick"> Reboco e Impermear </p></center>
+                        </div>
+
+                        <div class="boxClick6">
+                            <img src="Image/gallery6/1.jpeg" class="imgClick" >
+                            <center><p class="textclick">Contra piso e Reboco </p></center>
+                        </div>
+
+                        <div class="boxClick7">
+                            <img src="Image/gallery7/1.jpeg" class="imgClick" >
+                            <center><p class="textclick"> Reboco, contra piso, encanamento, pintura </p></center>
+                        </div>
+
+                        <div class="boxClick8">
+                            <img src="Image/gallery8/23.jpeg" class="imgClick" >
+                            <center><p class="textclick"> Alvenaria e bloco estrutural em 9 casas</p></center>
+                        </div>
+
+                        <div class="boxClick9">
+                            <img src="Image/gallery9/15.jpeg" class="imgClick" >
+                            <center><p class="textclick"> Fundação completa</p></center>
+                        </div>
+
+                        <div class="boxClick10">
+                            <img src="Image/gallery10/1.png" class="imgClick" >
+                            <center><p class="textclick"> Azuleijos </p></center>
+                        </div>
+
+                        <div class="boxClick11">
+                            <img src="Image/outros/Em breve!.png" class="imgClick" >
+                            <center><p class="textclick"> Em breve!! <br> </p></center>
+                        </div>
+
+                        <div class="boxClick12">
+                            <img src="Image/outros/Em breve!.png" class="imgClick" >
+                            <center><p class="textclick"> Em breve!! <br> </p></center>
+                        </div>
+
+                    </div>
+
+                        <div class="lightBox">
+                                <div class="apresentacaoImg">
+                                    <button class="close" onclick="fecharImagem()"> X </button>
+                                    <div class="slideshow-container1" id="imgGallery1">
+
+                                        <div class="mySlides1 fade">
+                                        <div class="numbertext">1 / 10</div>
+                                        <img src="Image/gallery1/1.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides1 fade">
+                                        <div class="numbertext">2 / 10</div>
+                                        <img src="Image/gallery1/2.jpeg"  class="imgGallery1">
+                                        <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides1 fade">
+                                        <div class="numbertext">3 / 10</div>
+                                        <img src="Image/gallery1/3.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">4 / 10</div>
+                                            <img src="Image/gallery1/4.jpeg" class="imgGallery1" >
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">5 / 10</div>
+                                            <img src="Image/gallery1/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">6 / 10</div>
+                                            <img src="Image/gallery1/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">7 / 10</div>
+                                            <img src="Image/gallery1/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">8 / 10</div>
+                                            <img src="Image/gallery1/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">9 / 10</div>
+                                            <img src="Image/gallery1/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                    
+                                        <div class="mySlides1 fade">
+                                            <div class="numbertext">10 / 10</div>
+                                            <img src="Image/gallery1/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Jardim Cruzeiro - Franco da Rocha <br> Azuleijo e Piso</p></center>
+                                        </div>
+                                        
+                                        <a class="prev" onclick="plusSlides1(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides1(1)">❯</a>
+                                        
+                                    </div>
+
+                                    <div class="slideshow-container2" id="imgGallery2">
+
+                                        <div class="mySlides2 fade">
+                                            <div class="numbertext">1 / 3</div>
+                                            <img src="Image/gallery2/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila Verde - Franco da Rocha. <br> Reboco</p></center>
+                                        </div>
+
+                                        <div class="mySlides2 fade">
+                                            <div class="numbertext">2 / 3</div>
+                                            <img src="Image/gallery2/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila Verde - Franco da Rocha. <br> Reboco</p></center>
+                                        </div>
+
+                                        <div class="mySlides2 fade">
+                                            <div class="numbertext">3 / 3</div>
+                                            <img src="Image/gallery2/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila Verde - Franco da Rocha. <br> Reboco</p></center>
+                                        </div>
+                                        <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides2(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container3" id="imgGallery3">
+
+                                        <div class="mySlides3 fade">
+                                        <div class="numbertext">1 / 25</div>
+                                        <img src="Image/gallery3/1.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Centro - Perus <br> Fundação </p></center>
+                                        </div>
+        
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">2 / 25</div>
+                                            <img src="Image/gallery3/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+        
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">3 / 25</div>
+                                            <img src="Image/gallery3/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">4 / 25</div>
+                                            <img src="Image/gallery3/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">5 / 25</div>
+                                            <img src="Image/gallery3/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">6 / 25</div>
+                                            <img src="Image/gallery3/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">7 / 25</div>
+                                            <img src="Image/gallery3/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">8 / 25</div>
+                                            <img src="Image/gallery3/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">9 / 25</div>
+                                            <img src="Image/gallery3/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">10 / 25</div>
+                                            <img src="Image/gallery3/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">11 / 25</div>
+                                            <img src="Image/gallery3/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">12 / 25</div>
+                                            <img src="Image/gallery3/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">13 / 25</div>
+                                            <img src="Image/gallery3/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">14 / 25</div>
+                                            <img src="Image/gallery3/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">15 / 25</div>
+                                            <img src="Image/gallery3/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">16 / 25</div>
+                                            <img src="Image/gallery3/16.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">17 / 25</div>
+                                            <img src="Image/gallery3/17.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">18 / 25</div>
+                                            <img src="Image/gallery3/18.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">19 / 25</div>
+                                            <img src="Image/gallery3/19.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">20 / 25</div>
+                                            <img src="Image/gallery3/20.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">21 / 25</div>
+                                            <img src="Image/gallery3/21.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">22 / 25</div>
+                                            <img src="Image/gallery3/22.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">23 / 25</div>
+                                            <img src="Image/gallery3/23.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">24 / 25</div>
+                                            <img src="Image/gallery3/24.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <div class="mySlides3 fade">
+                                            <div class="numbertext">25 / 25</div>
+                                            <img src="Image/gallery3/25.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">  Centro - Perus <br> Fundação </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides3(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides3(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container4" id="imgGallery4">
+
+                                        <div class="mySlides4 fade">
+                                        <div class="numbertext">1 / 24</div>
+                                        <img src="Image/gallery4/2.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">2 / 24</div>
+                                            <img src="Image/gallery4/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">3 / 24</div>
+                                            <img src="Image/gallery4/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">4 / 24</div>
+                                            <img src="Image/gallery4/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">5 / 24</div>
+                                            <img src="Image/gallery4/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">6 / 24</div>
+                                            <img src="Image/gallery4/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">7 / 24</div>
+                                            <img src="Image/gallery4/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">8 / 24</div>
+                                            <img src="Image/gallery4/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">9 / 24</div>
+                                            <img src="Image/gallery4/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">10 / 24</div>
+                                            <img src="Image/gallery4/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">11 / 24</div>
+                                            <img src="Image/gallery4/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">12 / 24</div>
+                                            <img src="Image/gallery4/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">13 / 24</div>
+                                            <img src="Image/gallery4/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">14 / 24</div>
+                                            <img src="Image/gallery4/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">15 / 24</div>
+                                            <img src="Image/gallery4/16.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">16 / 24</div>
+                                            <img src="Image/gallery4/17.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">17 / 24</div>
+                                            <img src="Image/gallery4/18.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">18 / 24</div>
+                                            <img src="Image/gallery4/19.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">19 / 24</div>
+                                            <img src="Image/gallery4/20.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">20 / 24</div>
+                                            <img src="Image/gallery4/21.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">21 / 24</div>
+                                            <img src="Image/gallery4/22.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">22 / 24</div>
+                                            <img src="Image/gallery4/23.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">23 / 24</div>
+                                            <img src="Image/gallery4/24.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <div class="mySlides4 fade">
+                                            <div class="numbertext">24 / 24</div>
+                                            <img src="Image/gallery4/25.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Lago Azul Alto - Franco da Rocha. <br> Reboco e Muro externo</p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides4(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides4(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container5" id="imgGallery5">
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">1 / 11</div>
+                                            <img src="Image/gallery5/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">2 / 11</div>
+                                            <img src="Image/gallery5/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">3 / 11</div>
+                                            <img src="Image/gallery5/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">4 / 11</div>
+                                            <img src="Image/gallery5/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">5 / 11</div>
+                                            <img src="Image/gallery5/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">6 / 11</div>
+                                            <img src="Image/gallery5/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">7 / 11</div>
+                                            <img src="Image/gallery5/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">8 / 11</div>
+                                            <img src="Image/gallery5/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">9 / 11</div>
+                                            <img src="Image/gallery5/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">10 / 11</div>
+                                            <img src="Image/gallery5/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <div class="mySlides5 fade">
+                                            <div class="numbertext">11 / 11</div>
+                                            <img src="Image/gallery5/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Laranjeiras - Caieiras. <br> Reboco e Impermeabilização </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides5(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides5(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container6" id="imgGallery6">
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">1 / 7</div>
+                                            <img src="Image/gallery6/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">2 / 7</div>
+                                            <img src="Image/gallery6/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">3 / 7</div>
+                                            <img src="Image/gallery6/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">4 / 7</div>
+                                            <img src="Image/gallery6/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">5 / 7</div>
+                                            <img src="Image/gallery6/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">6 / 7</div>
+                                            <img src="Image/gallery6/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <div class="mySlides6 fade">
+                                            <div class="numbertext">7 / 7</div>
+                                            <img src="Image/gallery6/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao">Centro - Caieiras. <br> Contra piso e Reboco </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides6(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides6(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container7" id="imgGallery7">
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">1 / 35</div>
+                                            <img src="Image/gallery7/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">2 / 35</div>
+                                            <img src="Image/gallery7/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">3 / 35</div>
+                                            <img src="Image/gallery7/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">4 / 35</div>
+                                            <img src="Image/gallery7/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">5 / 35</div>
+                                            <img src="Image/gallery7/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">6 / 35</div>
+                                            <img src="Image/gallery7/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">7 / 35</div>
+                                            <img src="Image/gallery7/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">8 / 35</div>
+                                            <img src="Image/gallery7/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">9 / 35</div>
+                                            <img src="Image/gallery7/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">10 / 35</div>
+                                            <img src="Image/gallery7/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">11 / 35</div>
+                                            <img src="Image/gallery7/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">12 / 35</div>
+                                            <img src="Image/gallery7/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">13 / 35</div>
+                                            <img src="Image/gallery7/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">14 / 35</div>
+                                            <img src="Image/gallery7/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">15 / 35</div>
+                                            <img src="Image/gallery7/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">16 / 35</div>
+                                            <img src="Image/gallery7/16.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">17 / 35</div>
+                                            <img src="Image/gallery7/17.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">18 / 35</div>
+                                            <img src="Image/gallery7/18.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">19 / 35</div>
+                                            <img src="Image/gallery7/19.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">20 / 35</div>
+                                            <img src="Image/gallery7/20.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">21 / 35</div>
+                                            <img src="Image/gallery7/21.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">22 / 35</div>
+                                            <img src="Image/gallery7/22.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">23 / 35</div>
+                                            <img src="Image/gallery7/23.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">24 / 35</div>
+                                            <img src="Image/gallery7/24.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">25 / 35</div>
+                                            <img src="Image/gallery7/25.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">26 / 35</div>
+                                            <img src="Image/gallery7/26.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">27 / 35</div>
+                                            <img src="Image/gallery7/27.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">28 / 35</div>
+                                            <img src="Image/gallery7/28.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">29 / 35</div>
+                                            <img src="Image/gallery7/29.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">30 / 35</div>
+                                            <img src="Image/gallery7/30.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">31 / 35</div>
+                                            <img src="Image/gallery7/31.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">32 / 35</div>
+                                            <img src="Image/gallery7/32.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">33 / 35</div>
+                                            <img src="Image/gallery7/33.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">34 / 35</div>
+                                            <img src="Image/gallery7/34.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <div class="mySlides7 fade">
+                                            <div class="numbertext">35 / 35</div>
+                                            <img src="Image/gallery7/35.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Campo Limpo Paulista. <br> Reboco, contra piso, encanamento, pintura. </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides7(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides7(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container8" id="imgGallery8">
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">1 / 23</div>
+                                            <img src="Image/gallery8/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">2 / 23</div>
+                                            <img src="Image/gallery8/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">3 / 23</div>
+                                            <img src="Image/gallery8/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">4 / 23</div>
+                                            <img src="Image/gallery8/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">5 / 23</div>
+                                            <img src="Image/gallery8/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">6 / 23</div>
+                                            <img src="Image/gallery8/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">7 / 23</div>
+                                            <img src="Image/gallery8/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">8 / 23</div>
+                                            <img src="Image/gallery8/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">9 / 23</div>
+                                            <img src="Image/gallery8/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">10 / 23</div>
+                                            <img src="Image/gallery8/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">11 / 23</div>
+                                            <img src="Image/gallery8/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">12 / 23</div>
+                                            <img src="Image/gallery8/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">13 / 23</div>
+                                            <img src="Image/gallery8/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">14 / 23</div>
+                                            <img src="Image/gallery8/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">15 / 23</div>
+                                            <img src="Image/gallery8/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">16 / 23</div>
+                                            <img src="Image/gallery8/16.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">17 / 23</div>
+                                            <img src="Image/gallery8/17.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">18 / 23</div>
+                                            <img src="Image/gallery8/18.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">19 / 23</div>
+                                            <img src="Image/gallery8/19.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">20 / 23</div>
+                                            <img src="Image/gallery8/20.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">21 / 23</div>
+                                            <img src="Image/gallery8/21.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">22 / 23</div>
+                                            <img src="Image/gallery8/22.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides8 fade">
+                                            <div class="numbertext">23 / 23</div>
+                                            <img src="Image/gallery8/23.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> São Benedito - Franco da Rocha. <br> Alvenaria, bloco estrutural em 9 casas</p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides8(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides8(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container9" id="imgGallery9">
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">1 / 15</div>
+                                            <img src="Image/gallery9/1.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">2 / 15</div>
+                                            <img src="Image/gallery9/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">3 / 15</div>
+                                            <img src="Image/gallery9/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">4 / 15</div>
+                                            <img src="Image/gallery9/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">5 / 15</div>
+                                            <img src="Image/gallery9/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">6 / 15</div>
+                                            <img src="Image/gallery9/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">7 / 15</div>
+                                            <img src="Image/gallery9/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">8 / 15</div>
+                                            <img src="Image/gallery9/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">9 / 15</div>
+                                            <img src="Image/gallery9/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">10 / 15</div>
+                                            <img src="Image/gallery9/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">11 / 15</div>
+                                            <img src="Image/gallery9/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">12 / 15</div>
+                                            <img src="Image/gallery9/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">13 / 15</div>
+                                            <img src="Image/gallery9/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">14 / 15</div>
+                                            <img src="Image/gallery9/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides9 fade">
+                                            <div class="numbertext">15 / 15</div>
+                                            <img src="Image/gallery9/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Vila verde - Franco da Rocha. <br> Fundação completa</p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides9(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides9(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container10" id="imgGallery10">
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">1 / 15</div>
+                                            <img src="Image/gallery10/1.png" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">2 / 15</div>
+                                            <img src="Image/gallery10/2.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">3 / 15</div>
+                                            <img src="Image/gallery10/3.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">4 / 15</div>
+                                            <img src="Image/gallery10/4.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+                                        
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">5 / 15</div>
+                                            <img src="Image/gallery10/5.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">6 / 15</div>
+                                            <img src="Image/gallery10/6.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">7 / 15</div>
+                                            <img src="Image/gallery10/7.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">8 / 15</div>
+                                            <img src="Image/gallery10/8.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">9 / 15</div>
+                                            <img src="Image/gallery10/9.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">10 / 15</div>
+                                            <img src="Image/gallery10/10.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">11 / 15</div>
+                                            <img src="Image/gallery10/11.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">12 / 15</div>
+                                            <img src="Image/gallery10/12.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">13 / 15</div>
+                                            <img src="Image/gallery10/13.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">14 / 15</div>
+                                            <img src="Image/gallery10/14.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <div class="mySlides10 fade">
+                                            <div class="numbertext">15 / 15</div>
+                                            <img src="Image/gallery10/15.jpeg" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides10(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides10(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container11" id="imgGallery11">
+
+                                        <div class="mySlides11 fade">
+                                            <div class="numbertext">1 / 1</div>
+                                            <img src="Image/outros/Em breve!.png" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Em breve!<br> </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides11(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides11(1)">❯</a>
+                                    </div>
+
+                                    <div class="slideshow-container12" id="imgGallery12">
+
+                                        <div class="mySlides12 fade">
+                                            <div class="numbertext">1 / 1</div>
+                                            <img src="Image/outros/Em breve!.png" class="imgGallery1">
+                                            <center><p class="textApresentacao"> Em breve!<br> </p></center>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides12(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides12(1)">❯</a>
+                                    </div>
+                            </div>
+                        </div>
+        
+                </div>
+            </section>
+</body>
+
+            <section id="contatos">
+                <footer class="rodape">
+                    <h1 class="titleRodape"> Vamos conversar?</h1>
+                    <p class="txtRodape"> Obrigado pela sua atenção, aqui vai alguns dos meus contatos:</p>
+                    <div class="boxContato">
+                        <a href="https://api.whatsapp.com/send?phone=5511968445033"><p class="txtRodapeCont"> WhatsApp: (11) 96844-5033</p></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511997436163"><p class="txtRodapeCont"> WhatsApp: (11) 99743-6163</p></a>
+                    </div>
+
+                    <br> <br><br> <br>
+                    <p class="txtRodape">  ©Nicolas de Almeida Sousa. Todos os direitos Reservados.</p>   
+
+                    <div class="boxRodapeImg">
+                        <a href="https://www.linkedin.com/in/nicolas-almeida-376284244/"> <img class="redeImg" src="Image/icons/linkedin.png" alt="ERRO"> </a>
+                        <a href="https://github.com/NicolasStudio"> <img class="redeImg" src="Image/icons/github.png" alt="ERRO"> </a>
+                        <a href="https://www.instagram.com/nicolas29sousa/"> <img class="redeImg" src="Image/icons/instagram.png" alt="ERRO"> </a>
+                        <a href="https://www.facebook.com/nicolas.almeida.1042/"> <img class="redeImg" src="Image/icons/facebook.png" alt="ERRO"> </a>
+                    </div>
+
+                        <center>
+                            <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por IconsBox - Flaticon</a> //
+                            <a href="https://www.flaticon.com/br/icones-gratis/facebook" title="facebook ícones">Facebook ícones criados por justicon - Flaticon</a> //
+                            <a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram" title="logotipo do instagram ícones">Logotipo do instagram ícones criados por justicon - Flaticon</a> //
+                            <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por Freepik - Flaticon</a> //
+                            <a href="https://www.flaticon.com/br/icones-gratis/whatsapp" title="whatsapp ícones">Whatsapp ícones criados por Freepik - Flaticon</a>
+                        </center>
+                    
+                </footer>
+            </section>
+            
+</html>

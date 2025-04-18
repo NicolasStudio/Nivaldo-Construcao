@@ -1,0 +1,106 @@
+/* Menu Desktop */
+html {
+    scroll-behavior: smooth;
+}
+
+.navbarMenu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #314c53;
+    padding: 0 30px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0.2rem 0.5rem #333;
+  }
+  
+  .menuLinks {
+    display: flex;
+  }
+  
+  .opcoes a {
+    display: block;
+    color: white;
+    padding: 26px 30px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .opcoes a:hover {
+    background-color: #24373b;
+    transition: background-color 0.3s;
+  }
+  
+  .nomeMenu {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Menu Mobile */
+  .boxBurguer {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+  }
+  
+  .burguer {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .inicio__mobile {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #314c53;
+    border-radius: 8px;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    z-index: 1000;
+  }
+  
+  .burguer__Link {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .opcoes2 a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .opcoes2 a:hover {
+    background-color: #24373b;
+    transition: background-color 0.3s;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .navbarMenu {
+      display: none;
+    }
+  
+    .boxBurguer {
+      display: block;
+    }
+  
+    .inicio__mobile {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .inicio__mobile.ativo {
+      display: block;
+    }
+  }
+  
